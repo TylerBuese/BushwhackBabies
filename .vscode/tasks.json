@@ -11,7 +11,7 @@
                 "PLATFORM=PLATFORM_DESKTOP",
                 "BUILD_MODE=DEBUG",
                 "PROJECT_NAME=${fileBasenameNoExtension}",
-                "OBJS=${fileBasenameNoExtension}.c"
+                "OBJS=${fileBasenameNoExtension}.cpp"
             ],
             "windows": {
                 "command": "mingw32-make.exe",
